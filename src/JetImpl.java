@@ -1,5 +1,5 @@
 
-public class JetImpl extends Jets {
+public class JetImpl extends Jet {
 
 	public JetImpl() {
 	}

@@ -1,15 +1,15 @@
 
-public abstract class Jets {
+public abstract class Jet {
 
 	private String model; 
 	private double speed; 
 	private int range; 
 	private long price;
 	
-	public Jets() {
+	public Jet() {
 	}
 
-	public Jets(String model, double speed, int range, long price) {
+	public Jet(String model, double speed, int range, long price) {
 		super();
 		this.model = model;
 		this.speed = speed;

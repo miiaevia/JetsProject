@@ -1,5 +1,5 @@
 
-public class CargoPlane extends Jets {
+public class CargoPlane extends Jet {
 
 	public CargoPlane() {
 	}

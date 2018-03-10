@@ -1,8 +1,17 @@
 
-public class FighterJet {
+public class FighterJet extends Jet {
 
 	public FighterJet() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
+	public FighterJet(String model, double speed, int range, long price) {
+		super(model, speed, range, price);
+	}
+	
+	public void fight() {
+		System.out.println("I am in combat.");
+	}
+
+	
 }
