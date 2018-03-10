@@ -79,7 +79,7 @@ public class JetsApplication {
 						System.out.println("Press 1 for yes or 2 for no: ");
 						int newPlaneChoice = kb.nextInt();
 						if (newPlaneChoice == 1) {
-							System.out.println("Enter a model: ");
+							System.out.println("Enter a model name with no spaces: ");
 							String model = kb.next();
 							System.out.println("Enter a speed: ");
 							double speed = kb.nextDouble();
