@@ -1,7 +1,7 @@
 
 public class AirField {
 
-	private Jet[] jets = new Jet[10];
+	private Jet[] jets = new Jet[100];
 
 	CargoPlane cargo1 = new CargoPlane("747", 300.00, 3000, 34_000_000);
 	CargoPlane cargo2 = new CargoPlane("Guppy", 150.00, 1000, 50_000_000);
