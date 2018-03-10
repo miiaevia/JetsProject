@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class JetsApplication {
 	static int selection;
 	
-	Scanner kb = new Scanner(System.in);
+	static Scanner kb = new Scanner(System.in);
 	
 	public JetsApplication() {
 	}
