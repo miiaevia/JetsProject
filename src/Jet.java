@@ -5,6 +5,7 @@ public abstract class Jet {
 	private double speed; 
 	private int range; 
 	private long price;
+	private double mach; 
 	
 	public Jet() {
 	}
@@ -35,7 +36,7 @@ public abstract class Jet {
 	
 	 public double getSpeedMach(int mph) {
 		    // mach = miles per hour × 0.001303
-		    double mach = mph * 0.001303;
+		    this.mach = mph * 0.001303;
 		    return mach;
 		  }
 
@@ -61,13 +62,13 @@ public abstract class Jet {
 	
 	@Override
 	public String toString() {
-		return "Model: " + getModel() + "\n Speed:" + getSpeed() + "\nRange: " + getRange()
-				+ "\n Price:  " + getPrice();
+		return "\tModel: " + getModel() + "\n\tSpeed:" + getSpeed() + "\n\tRange: " + getRange()
+				+ "\n\tPrice:  " + getPrice() + "\n";
 	}
 
 	public String fly() {
 		return "Model: " + getModel() + "\n Speed:" + getSpeed() + "\nRange: " + getRange()
-		+ "\n Price:  " + getPrice() + "\nTime: " + getTime();
+		+ "\n Price:  " + getPrice() + "\nTime: " + getTime() + "\n";
 	}
 
 }
