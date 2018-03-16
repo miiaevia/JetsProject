@@ -6,10 +6,12 @@ Program to view jets in an airfield and add new jets.
 
 #### Project Description
 
-User can enter a product price and amount of money provided to cashier.
-* If amount provided is not enough, system will show an error and amount owed.
-* If amount provided is exact change, app will say "Thank you" and end
-* If amount is more than needed, app will calculate change and provide the amount of bills and coins owed to the customer.
+This program will allow you to:
+* List the number of jets in the airfield
+* "Fly" them by displaying the time of flight
+* View the fastest jet
+* View the jet with the longest range
+* Add a new jet to the fleet
 
 Technologies used:
 * Java
@@ -18,9 +20,5 @@ Technologies used:
 
 
 #### Lessons Learned
-
-* need to recalculate the change amount as part of the loop
-* using doubles and dividing by amount lost would lose the values < 1
-* remember to clean up code and comments
-* can use a string array to perform the same calcs on multiple values for cleaner code
-* think about business logic. Ex: customer/cashier interaction can be completely separate from money calculations
+* Needed to loop all of the options so that the program wouldn't need to be re-run after adding a new jet to the fleet
+* Needed to compare objects in an array in a loop but return the result outside of the loop
